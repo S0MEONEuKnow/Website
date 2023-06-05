@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>EZFNv2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EZFNv2 is a Fortnite multiplayer server that allows you to play with other players in the same room.">
+    <meta name="keywords" content="EZFN, EZFNv2, Fortnite Multiplayer">
+    <meta name="author" content="Joel Jungkeim">
+    <meta name="email" content="admin@ezfn.dev">
+    <meta name="website" content="https://ezfn.dev">
+    <meta name="Version" content="v4.3.0">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../favicon.ico">
+    
+    <!-- Css -->
+    <!-- Bootstrap Css -->
+    <link href="../css/bootstrap.min.css" class="theme-opt" rel="stylesheet" type="text/css">
+    <!-- Icons Css -->
+    <link href="../css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/line.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Style Css-->
+    <link href="../css/style.min.css" class="theme-opt" rel="stylesheet" type="text/css">
+
+    <!-- Turnstile -->
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha" async defer></script>
+
+    <!-- Google Adsense -->
+    <script data-ad-client="ca-pub-8899997837601633" async src="../js/adsbygoogle.js"></script>
+
+    <!-- Not Google Adsense
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function() {
+            var interstitialSlot = googletag.defineOutOfPageSlot('/21849154601,22893972595/Ad.Plus-Interstitial', googletag.enums.OutOfPageFormat.INTERSTITIAL);
+            if (interstitialSlot) {
+                interstitialSlot.addService(googletag.pubads())
+            };
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+            googletag.display(interstitialSlot);
+        });
+    </script>
+
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || {cmd: []};
+        var anchorSlot;
+        googletag.cmd.push(function() {
+            anchorSlot = googletag.defineOutOfPageSlot(
+            '21849154601,22893972595/Ad.Plus-Anchor', googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR);
+            anchorSlot
+                .addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();  });
+    </script> -->
+</head>
+
+<body>
+    <div class="back-to-home rounded d-none d-sm-block">
+        <a href class="back-button btn btn-icon btn-primary"><i data-feather="arrow-left" class="icons"></i></a>
+    </div>
+
+    <!-- ERROR PAGE -->
+    <section class="bg-home d-flex align-items-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-12 text-center">
+                    <img src="../fonts/404.svg" class="img-fluid" alt>
+                    <div class="text-uppercase mt-4 display-3">Oh ! no</div>
+                    <div class="text-capitalize text-dark mb-4 error-page">Page Not Found</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a href="https://ezfn.dev" class="btn btn-outline-primary mt-4">Go To Home</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ERROR PAGE -->
+    
+    <!-- Footer Start -->
+<footer class="footer footer-bar">
+    <div class="footer-py-30">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <div class="text-sm-start">
+                        <p class="mb-0">
+                            Made with <i class="mdi mdi-heart text-danger"></i>, © <script>document.write(new Date().getFullYear())</script> EZFN. <br>
+                            Our <a href="https://ezfn.dev/legal/privacy_policy">Privacy Policy</a>, <a href="https://ezfn.dev/legal/terms_of_service">Terms and Conditions</a>, <a href="https://ezfn.dev/legal/impressum">Impressum</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <ul class="list-unstyled social-icon foot-social-icon text-sm-end mb-0">
+                        <li class="list-inline-item mb-0"><a href="https://www.tiktok.com/@lupusleaks/" target="_blank" class="rounded"><i class="fab fa-tiktok icon-sm"></i></a></li>
+                        <li class="list-inline-item mb-0"><a href="https://ezfn.dev/discord" target="_blank" class="rounded"><i class="fab fa-discord icon-sm"></i></a></li>
+                        <li class="list-inline-item mb-0"><a href="https://www.instagram.com/lupusleaks/" target="_blank" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                        <li class="list-inline-item mb-0"><a href="https://twitter.com/lupusleaks" target="_blank" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                        <li class="list-inline-item mb-0"><a href="https://www.youtube.com/lupusleaks" target="_blank" class="rounded"><i data-feather="youtube" class="fea icon-sm fea-social"></i></a></li>
+                    </ul><!--end icon-->
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!--end footer-->
+<!-- Footer End -->
+
+    <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5">
+        <i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i>
+    </a>
+
+    <a href="#" onclick="changeTheme()" id="dark-mode-switch" class="btn btn-icon btn-primary dark-mode-switch">
+        <i data-feather="moon" class="icons"></i>
+    </a>
+
+    <!-- jQuery -->
+    <script src="../js/jquery.min_1.js"></script>
+    <script src="../js/jquery.easing.min.js"></script>
+
+    <!-- Notify -->
+    <script src="../js/bootstrap-notify.min.js"></script>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/tiny-slider.js"></script>
+    <script src="../js/feather.min.js"></script>
+    <script src="../js/plugins.init.js"></script>
+
+    <!-- Stuff that every EZFN site needs -->
+    <script src="../js/app.js"></script>
+
+    <!-- Parse User Agent of the client -->
+    <script src="../js/ua-parser.min.js"></script>
+
+    <!-- Cookies Start -->
+    <div class="card cookie-popup shadow rounded py-3 px-4">
+        <p class="text-muted mb-0">This website uses cookies to provide you with a great user experience. By using it, you accept our <a href="https://ezfn.dev/legal/privacy_policy" target="_blank" class="text-success h6">use of cookies</a></p>
+        <div class="cookie-popup-actions text-end">
+            <button><i class="uil uil-times text-dark fs-4"></i></button>
+        </div>
+    </div><!--Note: Cookies Js including in plugins.init.js (path like; js/plugins.init.js) and Cookies css including in _helper.scss (path like; scss/_helper.scss)-->
+    <!-- Cookies End -->
+
+    <script>
+        //=========================================//
+        /*/*      14) Cookies Policy               */
+        //=========================================//
+
+        try {
+            /* common fuctions */
+            function el(selector) { return document.querySelector(selector) }
+            function els(selector) { return document.querySelectorAll(selector) }
+            function on(selector, event, action) { els(selector).forEach(e => e.addEventListener(event, action)) }
+            function cookie(name) { 
+                let c = document.cookie.split('; ').find(cookie => cookie && cookie.startsWith(name+'='))
+                return c ? c.split('=')[1] : false; 
+            }
+
+            /* popup button hanler */
+            on('.cookie-popup button', 'click', () => {
+                el('.cookie-popup').classList.add('cookie-popup-accepted');
+                localStorage.setItem('cookie-accepted', 'true');
+            });
+
+            /* popup init hanler */
+            if (getCookie('cookie-accepted') !== "true") {
+                el('.cookie-popup').classList.add('cookie-popup-not-accepted');
+            } else {
+                el('.cookie-popup').classList.add('cookie-popup-accepted');
+            }
+        } catch (error) {
+        
+        }
+    </script>
+
+    <!-- Cloudflare Web Analytics -->
+    <script defer src="../js/beacon.min.js" data-cf-beacon="{"token": "d09a1c6c87e942a6800c994efb8160ce"}"></script>
+    <!-- End Cloudflare Web Analytics -->
+
+</body>
+</html>
